@@ -1,0 +1,385 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&family=Ysabeau:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+body{
+    background-color:white;
+}
+header{
+    height: 100px;
+}
+input[type="checkbox"]{
+    display: none;
+}label{
+ position: fixed;
+ right: 5rem;
+ display: none;
+}
+.logo{
+    color: orange;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* background-image: radial-gradient(white,white); */
+    /* box-shadow: 10px 10px 50px black; */
+    height: 70px;
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+    background-color: #202064;
+    color: white;
+    position:fixed;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+nav ul li a,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+nav ul li a:hover{
+   color: green;
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    padding-top: 3rem;
+  
+}
+.sec1 .text{
+    width: 50%;
+    font-size: 2rem;
+    text-align: justify;
+}
+.sec1 .photo img{
+    position: relative;
+    top: -4rem;
+}
+
+.sec1 .text span{
+    color: orange;
+}
+.photo img{
+    z-index: -100;
+}
+.about .social{
+    display: flex;
+    flex-direction:column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 140px;
+}
+.social i:hover{
+color: red;
+   
+    
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    height: 400px;
+    background-color:#fff;
+    padding-top: 3rem;
+}
+.about .image img{
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+ border-bottom: 0.5rem double yellow;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 30px;
+    background-color:white;
+    z-index: -100;
+}
+.skills .card{
+    height: 200px;
+    width: 200px;
+   /* background-image: linear-gradient(to top ,pink,blue); */
+}
+.skills .card-logo{
+    border-radius: 50%;
+    background-image: url("./images/java-logo-1.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}
+.skills .card-logo2{
+    border-radius: 50%;
+    background-image: url("./images/html5-logo-vector.svg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}
+.skills .card-logo3{
+    border-radius: 50%;
+    background-image: url("./images/css3-logo-vector.svg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}
+.skills .card-logo4{
+    border-radius: 50%;
+    background-image: url("./images/javascript-39394.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}.skills .card-logo5{
+    border-radius: 50%;
+    background-image: url("./images/oracle-logo-vector-2.svg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}
+.skills .card-logo6{
+    border-radius: 50%;
+    background-image: url("./images/pngegg.png");
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    margin: 0 auto;
+}
+.skills .pra{
+    margin: 2rem 0 0 1rem;
+
+}
+.about .info{
+    width: 20rem;
+    word-spacing: 0.5rem;
+   line-height: 2rem;
+   color: rgb(35, 31, 31);
+   text-align: justify;
+}
+.header-text{
+   text-align: center;
+   /* background-color:rgb(179, 221, 245); */
+   font-size: 2rem;
+   padding-bottom: 10px;
+}
+.info .download{
+    background-color:orange;
+    color:black;
+    padding: 0.4rem;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+.info .download a{
+    text-decoration: none;
+}
+.info .download:hover{
+    background-color: white;
+
+}
+.info .hireMe{
+    background-color:purple;
+    color:white;
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fff;
+    color: black;
+    height: 70vh;
+    align-content: center;
+}
+.project .card-project{
+    width: 50vh;
+    margin: 0 auto;
+    height: 200px;
+    line-height: 2rem;
+    text-align: center;
+    
+   
+    
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 500px;
+    background-color: white;
+}
+.education .edu-card{
+    width: 800px;
+    height: 200px;
+    box-shadow: 10px 5px 20px gray;
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.education .edu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.form{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+.form form{
+    margin-top: 100px;
+}
+.form form input,button{
+    padding: 0.3rem 2rem;
+}
+.form button{
+    background-color: orange;
+}
+.contact{
+    position: absolute;
+    left: auto;
+}
+
+
+@media screen and (max-width:1024px){
+    label{
+        display: block;
+       }
+    nav ul{
+        display: none;
+    }
+    input:checked~ul{
+      display: block;
+      position: relative;
+      top: 4rem;
+      right: 2rem;
+      background-color: blue;
+      padding:1rem ;
+      margin-top: 1rem;
+    
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec1 .photo {
+        display: none;
+    }
+    .sec1 .text{
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .skills{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .skills .card{
+        width: 100%;
+        text-align: center;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+        height: 600px;
+    }
+    .about .social{
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-evenly;
+        gap: 2rem;
+        align-items: center;
+        margin-right: 78px;
+ 
+    }
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .info{
+        width: 20rem;
+        text-align: center;
+    }
+    .info .download{
+        margin-left:83px;
+    }
+    .education{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 200px;
+    }
+    .education .edu-card{
+       flex-direction: column;
+       width: 100px;
+       align-items: center;
+       height: 8rem;
+       text-align: justify;
+       background:none;
+       box-shadow: none;
+    }
+    .form{
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .form form{
+        display: flex;
+        flex-direction: column;
+    }
+    .education .edu-text{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .contact{
+        position: relative;
+    }
+    .project .card-project{
+        width: 30vh;
+    }
+
+
+}
+
+
+
+
+
+
