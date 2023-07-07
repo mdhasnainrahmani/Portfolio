@@ -10,6 +10,7 @@
 
 body{
     background-color:white;
+ 
 }
 header{
     height: 100px;
@@ -58,8 +59,10 @@ nav ul li a:hover{
     justify-content: space-evenly;
     height: 300px;
     padding-top: 3rem;
+    /* display: none; */
   
 }
+
 .sec1 .text{
     width: 50%;
     font-size: 2rem;
@@ -288,12 +291,19 @@ color: red;
     input:checked~ul{
       display: block;
       position: relative;
-      top: 4rem;
-      right: 2rem;
-      background-color: blue;
+      top: 5rem;
+      right: -1rem;
+      background-color:rgba(0, 0, 0, 0.813);
+      box-shadow: -5px 5px 10px grey;
       padding:1rem ;
-      margin-top: 1rem;
-    
+      /* padding-bottom: 3rem; */
+      margin-top: 8rem;
+      /* transition:linear 2s; */
+    }
+    ul>li{
+        padding: 0.4rem;
+        text-align: center;
+        /* border: 1px solid white; */
     }
     .sec1{
         width: 100%;
@@ -366,7 +376,7 @@ color: red;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      gap: 20px;
+      gap: 10px;
     }
     .contact{
         position: relative;
